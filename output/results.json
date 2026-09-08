@@ -1,0 +1,775 @@
+[
+  {
+    "url": "https://22betcanada.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The domain did not resolve and no webpage content was collected. This provides no affirmative evidence of fraudulent behavior, so NOT_SCAM is marginally better supported, but the site\u2019s true nature cannot be assessed with confidence.",
+    "indicators": [
+      "DNS resolution failed with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No observed financial claims, deposit requests, impersonation, or other scam behavior"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://22betcanada.com/\nCall log:\n  - navigating to \"https://22betcanada.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://8w.bqpxaf.xyz",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.56,
+    "reasoning": "The target uses an opaque, randomly styled subdomain and .xyz domain, and it did not resolve during investigation. These are weak risk signals rather than proof of fraud; because no webpage content was available, the classification has low confidence.",
+    "indicators": [
+      "Opaque domain name: 8w.bqpxaf.xyz",
+      "DNS resolution failed with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available to verify a legitimate purpose or assess financial-fraud behavior"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://8w.bqpxaf.xyz/\nCall log:\n  - navigating to \"https://8w.bqpxaf.xyz/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://addmklwhisky.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.86,
+    "reasoning": "The site presents itself as a Chinese immigration and Hong Kong identity-planning service, but its domain is an unrelated whisky-themed name. It also uses the branding and contact domain of \u201c\u4e16\u4f18\u96c6\u56e2\u201d/sureunit.com.hk without explaining the relationship to addmklwhisky.com. This severe identity and domain mismatch is consistent with a copied, compromised, or impersonation site designed to collect prospective clients\u2019 information.",
+    "indicators": [
+      "The domain addmklwhisky.com is unrelated to immigration, Hong Kong identity planning, or the displayed business",
+      "Displayed branding references \u201c\u4e16\u4f18\u96c6\u56e2,\u201d while the site is hosted on a different and unexplained domain",
+      "Contact email uses sureunit.com.hk rather than the investigated domain",
+      "The page solicits information through a \u201c\u83b7\u53d6\u514d\u8d39\u5b9a\u5236\u65b9\u6848 / \u63d0\u4ea4\u4fe1\u606f\u201d form despite the unclear site identity",
+      "Generic company title (\u201c\u51fa\u5165\u5883\u670d\u52a1\u6709\u9650\u516c\u53f8\u201d) does not clearly identify the represented legal entity"
+    ],
+    "pages_visited": [
+      "https://addmklwhisky.com/"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://adnins.cloud",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "The only observed content was a standard Cloudflare 521 error page indicating that the origin server was unavailable. No financial solicitation, impersonation, deceptive claims, cryptocurrency deposit requests, or other fraud behavior was observed. The conclusion has low confidence because the actual website content could not be accessed.",
+    "indicators": [
+      "Standard Cloudflare 'Web server is down' error page",
+      "HTTP status 521 prevented examination of the site's actual content",
+      "No observed investment claims, payment requests, login flow, or other scam-specific content"
+    ],
+    "pages_visited": [
+      "https://adnins.cloud/"
+    ],
+    "status": "error",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://alayasbeauty.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.55,
+    "reasoning": "The domain did not resolve, and no webpage content was collected. A DNS failure alone is insufficient evidence of fraud, so there is no observed basis for classifying the site as a scam. Confidence is low because the website could not be evaluated.",
+    "indicators": [
+      "Domain returned ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No fraudulent financial claims, impersonation, deposit requests, or deceptive behavior were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://alayasbeauty.com/\nCall log:\n  - navigating to \"https://alayasbeauty.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://astarwap.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "The domain did not resolve, and no website content was collected. A DNS failure alone does not establish fraudulent behavior, so there is insufficient evidence to classify the site as a scam. Confidence is low because the site could not be evaluated.",
+    "indicators": [
+      "Domain returned ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for fraud analysis",
+      "No observed financial claims, deposit requests, impersonation, or other scam behavior"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://astarwap.com/\nCall log:\n  - navigating to \"https://astarwap.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://aurionthexxa.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "No website content was retrieved, so there is no direct evidence of financial fraud, impersonation, deceptive claims, or payment solicitation. The domain\u2019s DNS resolution failure indicates only that the site was unavailable, not that it was fraudulent. This classification is therefore highly uncertain.",
+    "indicators": [
+      "Domain failed to resolve with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No fraudulent financial behavior or claims were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://aurionthexxa.com/\nCall log:\n  - navigating to \"https://aurionthexxa.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://bahrainiptv.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The domain did not resolve, and no webpage content was collected. A DNS failure alone does not establish fraudulent behavior, so the available evidence does not support a SCAM classification. Confidence is low because the site could not be evaluated.",
+    "indicators": [
+      "Domain returned ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for assessment",
+      "No fraudulent financial claims, impersonation, deposit requests, or deceptive flows were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bahrainiptv.com/\nCall log:\n  - navigating to \"https://bahrainiptv.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://bian-gold.globalonline.workers.dev",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.9,
+    "reasoning": "The only observed page was a Cloudflare block page explicitly stating that the website had been reported for potential phishing. Although the underlying site content was inaccessible, this direct security warning strongly supports a scam classification.",
+    "indicators": [
+      "Cloudflare displayed a \u201cSuspected Phishing\u201d warning",
+      "The warning states that the site was reported for potentially stealing sensitive information by posing as a safe source",
+      "Access was blocked with HTTP 403"
+    ],
+    "pages_visited": [
+      "https://bian-gold.globalonline.workers.dev/"
+    ],
+    "status": "blocked",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://bitocitex.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "The site could not be evaluated because its domain did not resolve, and no webpage content or fraudulent behavior was observed. A DNS failure alone is insufficient to classify a website as a scam, so NOT_SCAM is selected with very low confidence.",
+    "indicators": [
+      "Domain returned ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No deceptive financial claims, deposit requests, impersonation, or other fraud signals were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bitocitex.com/\nCall log:\n  - navigating to \"https://bitocitex.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://bozei.xyz",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The domain did not resolve, and no webpage content was collected. A DNS failure alone does not establish fraudulent behavior, so there is insufficient evidence to classify the site as a scam. Confidence is very low because the website could not be evaluated.",
+    "indicators": [
+      "Domain returned ERR_NAME_NOT_RESOLVED",
+      "No website content or financial-fraud behavior was observed",
+      "No evidence of investment claims, impersonation, phishing, or deposit requests was collected"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bozei.xyz/\nCall log:\n  - navigating to \"https://bozei.xyz/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://bradfordtradeins.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.99,
+    "reasoning": "The site exhibits a classic fraudulent high-yield crypto investment pattern. It promises guaranteed security and extremely unrealistic fixed weekly returns\u2014up to 70%\u2014while directing users to register, deposit investments, and \"watch it grow.\" Its credibility is further undermined by inconsistent branding, implausible statistics, template-like duplicated content, and future-dated material.",
+    "indicators": [
+      "Fixed returns of 6.5% to 70% weekly, with capital returned after only two weeks",
+      "Explicit guarantees of fast returns, investment security, and a safe trading experience",
+      "Deposit-oriented flow: create a wallet, deposit investments, watch them grow, then withdraw returns",
+      "Brand inconsistency: the domain is bradfordtradeins.com, the site calls itself Bradford Crypto, and plan-page text refers to PIPTRADE Group",
+      "Unsubstantiated claims such as 12K transactions per hour, a 5B largest transaction, 60 supported countries, and four years of experience",
+      "Suspicious plan errors and extremes, including a $500\u2013$500 tier and an \"Unlimited\" tier requiring $10 million to $100 million",
+      "Repeated team names, testimonials, blog entries, likes, and comment counts suggest generic or fabricated template content",
+      "Pages display future-dated 2026 posts and a 2026 copyright notice"
+    ],
+    "pages_visited": [
+      "https://bradfordtradeins.com/",
+      "https://bradfordtradeins.com/register.php",
+      "https://bradfordtradeins.com/plans.php",
+      "https://bradfordtradeins.com/login.php",
+      "https://bradfordtradeins.com/login.php#about"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://braiinscryptminning.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.63,
+    "reasoning": "The domain strongly resembles a typosquatting or impersonation name built around \u201cBraiins,\u201d cryptocurrency, and a misspelled \u201cminning.\u201d This naming pattern is commonly associated with fraudulent crypto-mining sites. However, no webpage content was retrieved, and DNS failure alone does not establish fraud, so confidence is limited.",
+    "indicators": [
+      "Brand-like term \u201cbraiins\u201d combined with cryptocurrency-mining terminology",
+      "Misspelled word \u201cminning,\u201d consistent with typo-based or disposable domains",
+      "Domain did not resolve, preventing verification of any legitimate operation"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://braiinscryptminning.com/\nCall log:\n  - navigating to \"https://braiinscryptminning.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://busigirh.xyz",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.53,
+    "reasoning": "The investigation captured only a browser error page after the site timed out. No financial claims, impersonation, deposit requests, phishing forms, or other scam behavior were observed. The evidence is therefore insufficient to support a SCAM classification, though confidence is low because the website's actual content was unavailable.",
+    "indicators": [
+      "Navigation timed out before any website content loaded",
+      "No HTTP status or visible page content was collected",
+      "No buttons, links, financial solicitations, or credential requests were observed"
+    ],
+    "pages_visited": [
+      "chrome-error://chromewebdata/"
+    ],
+    "status": "timeout",
+    "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://busigirh.xyz/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://byexdd.cc",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The domain did not resolve, and no webpage content was collected. Therefore, there is no observed evidence of fraudulent financial claims, impersonation, deceptive investment activity, or payment solicitation. This is an evidence-limited classification and does not establish that the site is legitimate.",
+    "indicators": [
+      "DNS resolution failed with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No scam-related behavior or financial solicitation was observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://byexdd.cc/\nCall log:\n  - navigating to \"https://byexdd.cc/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://ca7ggs-xj.myshopify.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.72,
+    "reasoning": "The only observed content was Shopify\u2019s standard \u201cStore unavailable\u201d page. No investment solicitation, payment request, impersonation, deceptive claims, or other fraud-related behavior was visible. Because the actual storefront could not be investigated, the conclusion is limited and confidence is moderate.",
+    "indicators": [
+      "HTTP 402 with a standard Shopify store-unavailable notice",
+      "No active storefront content or financial claims observed",
+      "No requests for deposits, credentials, or cryptocurrency",
+      "Visible links pointed only to Shopify account recovery and support"
+    ],
+    "pages_visited": [
+      "https://ca7ggs-xj.myshopify.com/"
+    ],
+    "status": "error",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://choxorainvestment.cc",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.99,
+    "reasoning": "The site promotes implausibly high, fixed short-term investment returns\u2014up to 145% in 30 hours and recurring returns every 12 hours\u2014while soliciting deposits from $100 to unlimited amounts. These claims are characteristic of fraudulent high-yield investment schemes. The generic, internally inconsistent financial-services copy and unexplained footer text further undermine credibility.",
+    "indicators": [
+      "Promises 118.5% returns in 24 hours on deposits of $100\u2013$9,999",
+      "Promises 145% returns in 30 hours on deposits up to $50,000",
+      "Offers recurring 5.3%\u20138% returns every 12 hours, including plans with unlimited maximum deposits",
+      "Claims the platform is backed by banks and tangible assets without presenting supporting details in the collected content",
+      "Combines banking, loans, wallets, token trading, cards, and investment services using repetitive generic marketing language",
+      "Anomalous footer text: \"Pirate bay proxy 2026\""
+    ],
+    "pages_visited": [
+      "https://choxorainvestment.cc/main/index.html",
+      "https://choxorainvestment.cc/main/index.html#"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://claudetf.fun",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.68,
+    "reasoning": "The collected page is only a generic 404 deployment-not-found response. No financial offers, credential requests, cryptocurrency deposit instructions, impersonation, or other fraudulent behavior were observed. Because the site was inactive, this does not establish its prior intent, so confidence is limited.",
+    "indicators": [
+      "HTTP 404 with a generic DEPLOYMENT_NOT_FOUND message",
+      "No active website content or functional buttons",
+      "No observed financial claims, payment requests, login flow, or impersonation"
+    ],
+    "pages_visited": [
+      "https://claudetf.fun/"
+    ],
+    "status": "inactive",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://cofuturexs.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The domain did not resolve, and no webpage content was collected. Therefore, there is no observed evidence of fraudulent financial claims, impersonation, deposit solicitation, or deceptive behavior. The result is highly uncertain because the site could not be evaluated.",
+    "indicators": [
+      "DNS resolution failed with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No specific scam behavior was observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://cofuturexs.com/\nCall log:\n  - navigating to \"https://cofuturexs.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://consultingfootpain.gr.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.55,
+    "reasoning": "The only observed page was Cloudflare\u2019s generic Error 526 page caused by an invalid origin SSL certificate. No financial offers, impersonation, deposit requests, misleading claims, or other scam behavior were observed. The evidence is therefore insufficient to support a scam classification, though confidence is limited because the actual website content was inaccessible.",
+    "indicators": [
+      "HTTP 526 invalid SSL certificate error",
+      "Only a generic Cloudflare error page was visible",
+      "No investment, payment, cryptocurrency, phishing, or impersonation content was observed",
+      "Actual website content could not be evaluated"
+    ],
+    "pages_visited": [
+      "https://consultingfootpain.gr.com/"
+    ],
+    "status": "error",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://copykoieliteglobal.org",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.56,
+    "reasoning": "The collected page only displayed a generic bot-verification message. No investment claims, payment requests, login forms, impersonation, or other fraud behavior was observed. Evidence is too limited for a strong determination, so confidence is low.",
+    "indicators": [
+      "Only a generic bot-verification page was visible",
+      "No financial offers, cryptocurrency deposit requests, or guaranteed returns were observed",
+      "No login, registration, links, or actionable buttons were collected"
+    ],
+    "pages_visited": [
+      "https://copykoieliteglobal.org/"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://cryptotrackerapp.net",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.78,
+    "reasoning": "The observed page presents a cryptocurrency portfolio-tracking service and does not display investment solicitations, guaranteed returns, deposit requests, urgency, or other direct fraud behavior. The evidence is limited to a landing page and does not verify the service or its sign-in flow, so confidence is moderate.",
+    "indicators": [
+      "Describes wallet tracking, market prices, analytics, and multi-currency portfolio views rather than an investment opportunity",
+      "No observed requests to send cryptocurrency or deposit funds",
+      "No guaranteed-profit claims, pressure tactics, or unrealistic returns",
+      "Sign-in is represented as using Internet Identity, though the authentication flow was not observed"
+    ],
+    "pages_visited": [
+      "https://cryptotrackerapp.net/",
+      "https://cryptotrackerapp.net/"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://datahydru602.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.76,
+    "reasoning": "The site presents itself as an advanced AI platform but uses an unrelated, randomly styled domain and makes numerous unsupported or apparently fabricated technical claims. Its claimed OpenAI integration and precise specifications for GPT-5 create a misleading appearance of legitimacy, while no identifiable operator, credentials, or verifiable context is visible. Although no direct payment or investment solicitation was observed, the overall identity and credibility inconsistencies strongly suggest a deceptive site.",
+    "indicators": [
+      "Unrelated and suspicious domain name: datahydru602.com",
+      "Claims deep OpenAI integration without visible verification or company identity",
+      "Presents precise GPT-5 specifications such as \u201c5T+\u201d parameters and 200ms latency as established facts",
+      "Large promotional metrics and performance claims are unsupported",
+      "Branding inconsistencies and repeated \u201cOpenAl\u201d misspelling",
+      "No visible legal, corporate, contact, or accountability information"
+    ],
+    "pages_visited": [
+      "https://datahydru602.com/index.html"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://datahydruva.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.61,
+    "reasoning": "The observed page makes broad and potentially questionable AI-performance and OpenAI-integration claims, but the collected evidence does not show financial solicitation, investment returns, cryptocurrency deposits, payment requests, credential theft, or other concrete fraud behavior. On the available evidence, a scam classification is not sufficiently supported.",
+    "indicators": [
+      "No observed requests for money, cryptocurrency deposits, or investments",
+      "No guaranteed returns or other financial-profit claims",
+      "Generic AI marketing page with navigation for training, statistics, and personal profile",
+      "Questionable or unsupported technical claims, including specific GPT model parameters and extensive OpenAI integration",
+      "Unclear relationship between the AI branding and the datahydruva.com domain"
+    ],
+    "pages_visited": [
+      "https://datahydruva.com/index.html"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://daxonbrite.info",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The domain did not resolve, and no webpage content was collected. Therefore, there is no observed evidence of fraudulent financial claims, phishing, impersonation, or deceptive investment activity. The classification is low-confidence because the site could not be evaluated.",
+    "indicators": [
+      "DNS resolution failed with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No scam-specific behavior or financial claims were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://daxonbrite.info/\nCall log:\n  - navigating to \"https://daxonbrite.info/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://dbd414c671913cba9408de35257a7286.small1006.shop",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.55,
+    "reasoning": "The only observed content was Cloudflare\u2019s generic Error 522 page, so no fraudulent financial behavior or deceptive website content was established. The opaque subdomain is mildly suspicious, but it is insufficient on its own to classify the site as a scam. Confidence is low because the origin site could not be inspected.",
+    "indicators": [
+      "Only a Cloudflare 522 connection-timeout page was accessible",
+      "No investment claims, cryptocurrency deposit requests, login forms, impersonation, or pressure tactics were observed",
+      "Random-looking subdomain under small1006.shop is a weak suspicious signal",
+      "Investigation timed out before the underlying website content could be evaluated"
+    ],
+    "pages_visited": [
+      "https://dbd414c671913cba9408de35257a7286.small1006.shop/"
+    ],
+    "status": "timeout",
+    "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://dbd414c671913cba9408de35257a7286.small1006.shop/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://dexapp.uk",
+    "classification": "SCAM",
+    "crypto_addresses": [
+      {
+        "address": "0xD499F95a6605550161cB9725A79c569bD3482F21",
+        "network": "ETH/ERC20",
+        "source_url": "https://www.dexapp.uk/",
+        "context": "Wallet Address</p><code class=\"text-xs text-cyan-400 break-all cursor-pointer hover:text-cyan-300\">0xD499F95a6605550161cB9725A79c569bD3482F21</code></div></div></div></div></div><div class=\"mt-8\"><h4 class=\"text-lg font-semibold text-gray-20",
+        "asset_hint": null,
+        "source_type": "html"
+      },
+      {
+        "address": "0xe90D5F442D651E32E95f71Da0a39f22f4c5E0bD5",
+        "network": "ETH/ERC20",
+        "source_url": "https://www.dexapp.uk/",
+        "context": "\"><p class=\"text-gray-300 font-medium break-all mb-2\">Contract Address: <span class=\"text-cyan-400\">0xe90D5F442D651E32E95f71Da0a39f22f4c5E0bD5</span></p><button class=\"mt-2 px-4 py-1.5 bg-gradient-to-r from-violet-600 to-purple-500 hover:from",
+        "asset_hint": null,
+        "source_type": "html"
+      }
+    ],
+    "confidence": 0.68,
+    "reasoning": "The site presents a token-centered financial-freedom project with lottery and play-to-earn promotions promising large jackpots and token rewards. Its identity is also inconsistent: the dexapp.uk domain is branded as \u201cPROJECT TEZ.\u201d Although no explicit guaranteed return or deposit demand was observed, the combination of financial aspiration messaging, gamified token earning, speculative trading promotion, and inconsistent branding is more consistent with a high-risk deceptive crypto platform than an established financial service.",
+    "indicators": [
+      "Title claims \u201cFinancial Freedom Starts Here\u201d",
+      "Lottery game advertises \u201cmassive jackpots and instant rewards\u201d and urges users to \u201cWin Big Today\u201d",
+      "Multiple games promote earning TT tokens through gameplay",
+      "Promotes trading TEZ on Coinstore",
+      "Domain name dexapp.uk does not clearly match the displayed \u201cPROJECT TEZ\u201d identity",
+      "Login functionality is promoted despite minimal visible information about the operator"
+    ],
+    "pages_visited": [
+      "https://www.dexapp.uk/"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": [
+      "screenshots/1d0cb1805f64_step_0.png"
+    ]
+  },
+  {
+    "url": "https://dreammallshopggroup.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.55,
+    "reasoning": "The site could not be evaluated because its domain did not resolve, so there is no direct evidence of fraudulent financial activity. However, the awkward, typo-like domain name combined with its nonfunctional DNS status is mildly consistent with disposable or abandoned scam infrastructure. The classification is therefore low confidence.",
+    "indicators": [
+      "Domain failed to resolve (ERR_NAME_NOT_RESOLVED)",
+      "Awkward, typo-like domain wording: \"dreammallshopggroup\"",
+      "No webpage content was available to verify a legitimate business or service"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://dreammallshopggroup.com/\nCall log:\n  - navigating to \"https://dreammallshopggroup.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://dreamshopgroup.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "The only observed content was a Cloudflare 522 origin-server timeout page. No financial solicitation, cryptocurrency deposit request, impersonation, misleading returns, or other fraud-related behavior was observed. The site was inaccessible, so this classification has low confidence and reflects an absence of scam evidence rather than proof of legitimacy.",
+    "indicators": [
+      "Cloudflare reported an origin-server connection timeout (Error 522)",
+      "No actual website content or financial claims were retrieved",
+      "No observed requests for payments, deposits, credentials, or investments"
+    ],
+    "pages_visited": [
+      "https://dreamshopgroup.com/"
+    ],
+    "status": "timeout",
+    "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://dreamshopgroup.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://dropclutchsociety.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "No website content or evidence of financial fraud was collected. The only observed issue was an SSL version/cipher mismatch, which indicates a technical or configuration problem but does not by itself establish fraudulent activity. The conclusion is therefore highly uncertain.",
+    "indicators": [
+      "No webpage content was available for analysis",
+      "SSL connection failed with ERR_SSL_VERSION_OR_CIPHER_MISMATCH",
+      "No observed investment claims, deposit requests, impersonation, phishing, or other fraud signals"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://dropclutchsociety.com/\nCall log:\n  - navigating to \"https://dropclutchsociety.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://drops-marketplace.netlify.app",
+    "classification": "SCAM",
+    "crypto_addresses": [
+      {
+        "address": "0xA562912e1328eEA987E04c2650EfB5703757850C",
+        "network": "ETH/ERC20",
+        "source_url": "https://drops-marketplace.netlify.app/eth",
+        "context": "ss-14vpez7\">Earn</h2></a><a href=\"https://app.uniswap.org/swap?inputCurrency=eth&amp;outputCurrency=0xA562912e1328eEA987E04c2650EfB5703757850C\" target=\"_blank\" style=\"text-decoration: none;\"><h2 class=\"MuiTypography-root MuiTypography-h2 css-",
+        "asset_hint": "ETH",
+        "source_type": "html"
+      }
+    ],
+    "confidence": 0.78,
+    "reasoning": "The site presents a cryptocurrency liquidity marketplace that asks users to connect a wallet, transfer lock ownership, and purchase a $500 audit in USDT, but it operates from an unrelated Netlify subdomain while branding itself as \u201cDrops\u201d and referencing drops.site. This identity/domain mismatch, combined with high-risk crypto transaction flows and an apparently nonfunctional marketplace showing zero activity and a $0 token price, is more consistent with a deceptive or cloned financial interface than a verified service.",
+    "indicators": [
+      "Financial and wallet functionality is hosted at drops-marketplace.netlify.app rather than the branded drops.site domain",
+      "Prompts users to connect a cryptocurrency wallet and transfer locked-liquidity ownership",
+      "Requests a $500 USDT payment for an audit",
+      "Marketplace displays 0 listings, 0 traded value, and repeated \u201c1 DROP = $0 USD\u201d values",
+      "Claims an official partnership and AssureDefi-powered audits without collected evidence verifying those claims"
+    ],
+    "pages_visited": [
+      "https://drops-marketplace.netlify.app/eth",
+      "https://drops-marketplace.netlify.app/eth#listings",
+      "https://drops-marketplace.netlify.app/eth/sell-liquidity",
+      "https://drops-marketplace.netlify.app/eth/sell-liquidity"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": [
+      "screenshots/501551297a38_step_0.png"
+    ]
+  },
+  {
+    "url": "https://elite-crown.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.99,
+    "reasoning": "The site displays the hallmarks of a high-yield investment scam: it solicits account funding for crypto trading while advertising implausibly high fixed daily returns, including 12% per day, and claims guaranteed or steady income. It uses unverified testimonials reporting extreme profits and debt relief, repeatedly asserts that it is \u201c100% legit,\u201d and provides only generic descriptions of its trading activity and security rather than credible regulatory or risk information.",
+    "indicators": [
+      "Investment plans promise fixed returns of 4.1% to 12% daily over 4\u20137 days",
+      "Claims of a hedging system that \u201cguarantees steady money inflow\u201d and constant payment",
+      "Flow explicitly directs users to create an account, fund it, activate a trading plan, and receive payments",
+      "Testimonials claim returns exceeding 150%, over $85,000 in profit, and debt elimination",
+      "No regulatory authorization, licensing details, investment-risk disclosures, or independently verifiable business credentials were observed",
+      "Dubious security claim referring to a \u201cCommodo License\u201d as proof of encrypted communication",
+      "High-pressure trust language such as \u201celite-crown.com is 100% legit\u201d and \u201cJoin us now!\u201d"
+    ],
+    "pages_visited": [
+      "https://elite-crown.com/",
+      "https://elite-crown.com/#",
+      "https://elite-crown.com/?a=login",
+      "https://elite-crown.com/?a=login"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://feed.gaiaaex.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "The only observed content was a standard Cloudflare Error 522 page indicating that the origin server timed out. No fraudulent financial content, deceptive claims, impersonation, deposit requests, or investment flows were observed. Because the actual website content was unavailable, this classification has low confidence.",
+    "indicators": [
+      "Standard Cloudflare 522 connection-timeout page",
+      "No investment claims, cryptocurrency deposit requests, login flows, or financial solicitations observed",
+      "Origin website content could not be assessed due to the timeout"
+    ],
+    "pages_visited": [
+      "https://feed.gaiaaex.com/"
+    ],
+    "status": "timeout",
+    "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://feed.gaiaaex.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://fortivexgroup.org",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "The only observed fact is that the domain did not resolve, and no website content was collected. This does not provide affirmative evidence of financial fraud, so NOT_SCAM is the minimally supported classification, with very low confidence due to the lack of evidence.",
+    "indicators": [
+      "Domain returned ERR_NAME_NOT_RESOLVED",
+      "No webpage content was available for analysis",
+      "No fraudulent claims, deposit requests, impersonation, or deceptive financial behavior were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://fortivexgroup.org/\nCall log:\n  - navigating to \"https://fortivexgroup.org/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://fxo2o.me",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.9,
+    "reasoning": "The only observed page was a Cloudflare interstitial explicitly warning that the domain had been reported for potential phishing. Although the underlying website content was blocked and could not be independently assessed, this direct security-provider warning strongly supports a scam classification.",
+    "indicators": [
+      "Cloudflare displayed a \u201cSuspected Phishing\u201d warning for the domain",
+      "The warning stated that the website had been reported for potential phishing",
+      "Access returned HTTP 403 and the underlying site content was not available for verification"
+    ],
+    "pages_visited": [
+      "https://fxo2o.me/"
+    ],
+    "status": "blocked",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://gete84.com",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.55,
+    "reasoning": "The collected page only showed a generic \u201cRedirecting...\u201d title with no visible content, links, or buttons. There is no observed evidence of financial fraud, phishing, impersonation, deposit solicitation, or deceptive investment claims. The limited redirect-only capture makes the assessment uncertain.",
+    "indicators": [
+      "No visible financial or investment claims",
+      "No credential, payment, or cryptocurrency deposit requests observed",
+      "No impersonation or deceptive branding observed",
+      "Only a generic redirect page was captured, leaving substantial uncertainty"
+    ],
+    "pages_visited": [
+      "https://gete84.com/"
+    ],
+    "status": "success",
+    "error": null,
+    "screenshots": []
+  },
+  {
+    "url": "https://goldmachine.international",
+    "classification": "NOT_SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.51,
+    "reasoning": "No website content was available, so there is no observed evidence of fraudulent financial behavior. The DNS resolution failure may indicate an inactive or misconfigured domain, but it does not by itself establish a scam. This classification is therefore highly uncertain.",
+    "indicators": [
+      "Domain failed to resolve with ERR_NAME_NOT_RESOLVED",
+      "No webpage content was collected",
+      "No fraudulent claims, deposit requests, impersonation, or deceptive flows were observed"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://goldmachine.international/\nCall log:\n  - navigating to \"https://goldmachine.international/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://gxecgcx.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.52,
+    "reasoning": "The evidence is very limited because the site refused the connection and no content was collected. The seemingly nonsensical domain name is a weak suspicious signal, but neither it nor the outage establishes fraud; therefore the SCAM classification has low confidence.",
+    "indicators": [
+      "Domain name appears randomly generated or lacks an identifiable brand",
+      "HTTPS connection was refused, preventing verification of the site's identity or legitimacy",
+      "No webpage content was available to confirm financial services, deceptive claims, or other fraud behavior"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://gxecgcx.com/\nCall log:\n  - navigating to \"https://gxecgcx.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://h5.bit-main.cc",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.56,
+    "reasoning": "No substantive site content was retrievable because the origin server timed out, so the evidence is limited. However, the domain \u201cbit-main.cc\u201d resembles the name of the cryptocurrency-mining company BITMAIN while using a hyphenated .cc domain and an \u201ch5\u201d subdomain, which is consistent with possible brand impersonation. This weak circumstantial signal supports SCAM, but confidence is low because no financial solicitations or fraudulent functionality were observed.",
+    "indicators": [
+      "Domain \u201cbit-main.cc\u201d appears similar to the BITMAIN brand but uses a different, hyphenated domain",
+      "Use of an \u201ch5\u201d subdomain, sometimes associated with temporary mobile-oriented platforms",
+      "Site was inaccessible with Cloudflare Error 522, preventing verification of its identity or services"
+    ],
+    "pages_visited": [
+      "https://h5.bit-main.cc/"
+    ],
+    "status": "timeout",
+    "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://h5.bit-main.cc/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://h5.bitmain-ex.co",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.58,
+    "reasoning": "The site could not be inspected because its origin server timed out, so there is no direct evidence of its services or financial claims. However, the domain uses the recognizable \u201cBitmain\u201d name combined with \u201c-ex\u201d and an \u201ch5\u201d subdomain, which is consistent with suspicious exchange-style branding or possible impersonation. This weak circumstantial signal supports SCAM, but confidence is low due to the lack of accessible content.",
+    "indicators": [
+      "Domain h5.bitmain-ex.co uses the recognizable Bitmain name with exchange-like \u201cex\u201d branding",
+      "The site\u2019s origin server was unavailable behind Cloudflare (Error 522), preventing verification of its identity or operations",
+      "No accessible page content, company details, or legitimate service information was observed"
+    ],
+    "pages_visited": [
+      "https://h5.bitmain-ex.co/"
+    ],
+    "status": "timeout",
+    "error": "Page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://h5.bitmain-ex.co/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  },
+  {
+    "url": "https://h5.mitrade-store.com",
+    "classification": "SCAM",
+    "crypto_addresses": [],
+    "confidence": 0.55,
+    "reasoning": "The URL pattern is suspicious for a financial-site impersonation or disposable mobile portal, particularly the \u201ch5\u201d subdomain and brand-like \u201cmitrade-store.com\u201d domain. However, no page content was retrieved, and connection refusal alone does not establish fraud, so confidence is low.",
+    "indicators": [
+      "Brand-like, hyphenated domain name: mitrade-store.com",
+      "Use of an \u201ch5\u201d subdomain often associated with mobile web portals",
+      "The server refused the connection, preventing verification of the site's identity or services"
+    ],
+    "pages_visited": [],
+    "status": "error",
+    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://h5.mitrade-store.com/\nCall log:\n  - navigating to \"https://h5.mitrade-store.com/\", waiting until \"domcontentloaded\"\n",
+    "screenshots": []
+  }
+]
