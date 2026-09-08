@@ -321,9 +321,25 @@ async def investigate_site(
 
     except Exception as exc:
 
-        status = "error"
+        message = str(exc)
 
-        error = str(exc)
+        if (
+            "ERR_NAME_NOT_RESOLVED" in message
+            or "ERR_CONNECTION_REFUSED" in message
+            or "ERR_CONNECTION_CLOSED" in message
+        ):
+            status = "inactive"
+
+        elif (
+            "ERR_BLOCKED_BY_CLIENT" in message
+            or "ERR_ACCESS_DENIED" in message
+        ):
+            status = "blocked"
+
+        else:
+            status = "error"
+
+        error = message
 
     finally:
 
@@ -357,8 +373,7 @@ async def investigate_site(
         address_map.values()
     )
 
-    # Challenge only asks for addresses
-    # from sites classified as scams.
+    # Challenge only asks for addresses from sites classified as scams
     if classification.classification == "NOT_SCAM":
         final_wallets = []
         final_screenshots = []

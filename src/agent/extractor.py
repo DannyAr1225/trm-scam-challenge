@@ -157,6 +157,12 @@ def extract_pattern(
             match.end()
         )
 
+        if (
+            network == "ETH/ERC20"
+            and looks_like_contract_reference(context)
+        ):
+            continue
+
         results.append(
             CryptoAddress(
                 address=value,
@@ -285,4 +291,22 @@ def extract_addresses(
 
     return list(
         unique_addresses.values()
+    )
+
+def looks_like_contract_reference(
+    context: str
+) -> bool:
+
+    lowered = context.lower()
+
+    contract_markers = [
+        "contract address",
+        "token contract",
+        "outputcurrency=",
+        "inputcurrency="
+    ]
+
+    return any(
+        marker in lowered
+        for marker in contract_markers
     )

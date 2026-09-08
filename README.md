@@ -284,3 +284,9 @@ classification thresholds, navigation priorities, address-extraction recall,
 and model behavior could be measured systematically. More detailed telemetry,
 retry policies, and registrable-domain-aware navigation would further improve
 reliability when processing large and diverse sets of websites.
+
+A substantial portion of the supplied targets were no longer reachable at
+evaluation time. The system records DNS failures and unreachable domains as
+inactive targets rather than treating them as application failures, while
+timeouts, access restrictions, and unexpected browser failures are represented
+separately in the output status field.
